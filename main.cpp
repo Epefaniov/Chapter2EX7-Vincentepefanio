@@ -15,17 +15,20 @@ The number of millimeters higher than the current level that the ocean’s level
 
 #include <iostream>
 using namespace std;
-const double levelRise = 1.5;
+//const double levelRise = 1.5;
 
 
 
 
 int main()
 {
-
+  double levelRise;
   double YearLevel5 = levelRise * 5;
   double YearLevel7 = levelRise * 7;
   double YearLevel10 = levelRise * 10;
+ cout << "Please enter the millimeter rise you expect each year" << endl;
+ cin >> levelRise;
+  
   cout<< "after 5 years the ocean level will have risen "<< YearLevel5<< "millimeters"  <<endl;
   cout<< "after 7 years the ocean level will have risen "<< YearLevel7 << "millimeters" <<endl;
   cout<< "after 10 years the ocean level will have risen "<< YearLevel10<< "millimeters" <<endl;
