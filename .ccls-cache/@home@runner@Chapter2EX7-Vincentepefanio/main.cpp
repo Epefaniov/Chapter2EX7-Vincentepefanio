@@ -22,11 +22,11 @@ using namespace std;
 
 int main()
 {
-  double levelRise;
+  double levelRise = 1.5;
   double YearLevel5 = levelRise * 5;
   double YearLevel7 = levelRise * 7;
   double YearLevel10 = levelRise * 10;
- cout << "Please enter the millimeter rise you expect each year" << endl;
+ cout << "Please enter the millimeter rise you expect each year" <<endl;
  cin >> levelRise;
   
   cout<< "after 5 years the ocean level will have risen "<< YearLevel5<< "millimeters"  <<endl;
